@@ -11,7 +11,7 @@ function changeColor(temp, brightness, summary) {
     	 $('.screen').append('<h3 class="summary"> The temperature is ' + temp + ' degrees F');
 }
 
-$('.button').on('click', function(e) {
+$('.weatherButton').on('click', function(e) {
 		var lat       = $('#latitude').val(),
 			long      = $('#longitude').val(),
 			city_name = $('#city-search').val()
